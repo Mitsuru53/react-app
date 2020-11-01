@@ -1,0 +1,14 @@
+name: Hello Word
+author: Mitsuru
+description: Some desc
+inputs:
+  who-to-great:
+    description: 'Who to greet'
+    required: true
+    default: Mitsuru
+outputs:
+  time:
+    description: 'The greeting time'
+runs:
+  using: "node12"
+  main: "index.js"
